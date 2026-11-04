@@ -23,7 +23,7 @@ export default function Trending() {
     <section id="trending">
       <div className="container">
         <div className="row trending__row">
-          <div className="trending__header">
+          <div className="trending__header">+
             <h2 className="trending__header__title">Trending NFTs</h2>
             <Link className="trending__header__button" to={"/collections"}>
               View All
