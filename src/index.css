@@ -521,8 +521,19 @@ html {
   gap: 16px;
   width: 100%;
 }
+
+.pop-collections__skeleton{
+    display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
 .collection-column {
-  width: calc((100% / 6) - 16px + (16px / 6));
+  width: calc((100% / 6)  (16px / 6));
+}
+
+.popCollection-column{
+ width: calc((100% / 9) (16px / 9));
 }
 
 .newcollection-column {
