@@ -88,6 +88,7 @@ export default function NewCollections() {
                               </span>
                               <span className="collection__stat__data">
                                 {Number(item?.floor).toFixed(2)} ETH
+                                
                               </span>
                             </div>
                             <div className="collection__stat">
