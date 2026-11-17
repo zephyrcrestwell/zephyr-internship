@@ -834,11 +834,31 @@ footer {
   background-color: rgb(11, 133, 255);
 }
 
+
+.loadMore{
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.loadMore__btn{
+  background-color:rgb(24, 104, 183);;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  margin-top: 42px;
+}
 /* 
 
   COLLECTION PAGE
 
 */
+
+@media (max-width: 1200px){
+  .new-collection__grid{
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
 
 #collection-header {
   height: 340px;
